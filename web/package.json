@@ -1,0 +1,54 @@
+{
+  "name": "dependency-explorer-sonar-plugin",
+  "main": "../target/classes/static/report_page.js",
+  "license": "MIT",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "NODE_ENV=production BABEL_ENV=production webpack --config conf/webpack.prod.js",
+    "start": "NODE_ENV=development BABEL_ENV=development webpack serve --open --config conf/webpack.dev.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "babel": {
+    "presets": [
+      [
+        "react-app"
+      ]
+    ]
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.1",
+    "@table-library/react-table-library": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^10.0.1",
+    "css-loader": "^6.5.1",
+    "detect-port": "^1.3.0",
+    "eslint": "^8.7.0",
+    "eslint-plugin-react": "^7.28.0",
+    "postcss-loader": "^6.2.1",
+    "react-dev-utils": "12.0.0",
+    "react-router": "6.2.1",
+    "react-transform-hmr": "1.0.4",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.5.2",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  }
+}

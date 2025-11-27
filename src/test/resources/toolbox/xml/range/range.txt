@@ -1,0 +1,14 @@
+<project>
+	<properties>
+		<truc>4.5.6</truc>
+		<machin>4.5.7
+			</machin>
+	</properties>
+	<versions>
+		<version>
+			4.5.8
+			
+		</version>
+		<version>	4.5.9 </version>
+	</versions>
+</project>

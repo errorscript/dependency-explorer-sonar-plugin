@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PluginUpdatesReport xsi:schemaLocation="https://www.mojohaus.org/VERSIONS/PLUGIN-UPDATES-REPORT/2.0.0 https://www.mojohaus.org/versions-maven-plugin/xsd/plugin-updates-report-2.0.0.xsd"
+    xmlns="https://www.mojohaus.org/VERSIONS/PLUGIN-UPDATES-REPORT/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <summary>
+    <usingLastVersion>2</usingLastVersion>
+    <nextVersionAvailable>2</nextVersionAvailable>
+    <nextIncrementalAvailable>1</nextIncrementalAvailable>
+    <nextMinorAvailable>2</nextMinorAvailable>
+    <nextMajorAvailable>2</nextMajorAvailable>
+    <dependencyUpdates>0</dependencyUpdates>
+  </summary>
+  <pluginManagements>
+    <pluginManagement>
+      <groupId>test.group</groupId>
+      <artifactId>pluginmanagement-with-minor</artifactId>
+      <type>jar</type>
+      <currentVersion>1.3</currentVersion>
+      <lastVersion>3.1.0</lastVersion>
+      <minors>
+        <minor>1.4</minor>
+        <minor>1.5</minor>
+        <minor>1.6</minor>
+        <minor>1.7</minor>
+        <minor>1.8</minor>
+      </minors>
+      <status>minor available</status>
+    </pluginManagement>
+    <pluginManagement>
+      <groupId>test.group</groupId>
+      <artifactId>pluginmanagement-with-major</artifactId>
+      <type>jar</type>
+      <currentVersion>1.3</currentVersion>
+      <lastVersion>3.1.0</lastVersion>
+      <majors>
+        <major>3.0.0</major>
+        <major>3.1.0</major>
+      </majors>
+      <status>major available</status>
+    </pluginManagement>
+    <pluginManagement>
+      <groupId>test.group</groupId>
+      <artifactId>pluginmanagement-with-incremental</artifactId>
+      <type>jar</type>
+      <currentVersion>3.2.0</currentVersion>
+      <lastVersion>3.2.1</lastVersion>
+      <incrementals>
+        <incremental>3.2.1</incremental>
+      </incrementals>
+      <status>incremental available</status>
+    </pluginManagement>
+    <pluginManagement>
+      <groupId>test.group</groupId>
+      <artifactId>pluginmanagement-with-none</artifactId>
+      <type>jar</type>
+      <currentVersion>3.2.0</currentVersion>
+      <status>no new available</status>
+    </pluginManagement>
+  </pluginManagements>
+  <plugins>
+    <plugin>
+      <groupId>test.group</groupId>
+      <artifactId>plugin-with-minor</artifactId>
+      <type>jar</type>
+      <currentVersion>1.3</currentVersion>
+      <lastVersion>3.1.0</lastVersion>
+      <minors>
+        <minor>1.4</minor>
+        <minor>1.5</minor>
+        <minor>1.6</minor>
+        <minor>1.7</minor>
+        <minor>1.8</minor>
+      </minors>
+      <status>minor available</status>
+    </plugin>
+    <plugin>
+      <groupId>test.group</groupId>
+      <artifactId>plugin-with-major</artifactId>
+      <type>jar</type>
+      <currentVersion>1.3</currentVersion>
+      <lastVersion>3.1.0</lastVersion>
+      <majors>
+        <major>3.0.0</major>
+        <major>3.1.0</major>
+      </majors>
+      <status>major available</status>
+    </plugin>
+    <plugin>
+      <groupId>test.group</groupId>
+      <artifactId>plugin-with-incremental</artifactId>
+      <type>jar</type>
+      <currentVersion>3.2.0</currentVersion>
+      <lastVersion>3.2.1</lastVersion>
+      <incrementals>
+        <incremental>3.2.1</incremental>
+      </incrementals>
+      <status>incremental available</status>
+    </plugin>
+    <plugin>
+      <groupId>test.group</groupId>
+      <artifactId>plugin-with-none</artifactId>
+      <type>jar</type>
+      <currentVersion>3.2.0</currentVersion>
+      <status>no new available</status>
+    </plugin>
+  </plugins>
+</PluginUpdatesReport>

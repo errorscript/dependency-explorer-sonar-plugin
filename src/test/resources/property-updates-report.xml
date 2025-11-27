@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyUpdatesReport xsi:schemaLocation="https://www.mojohaus.org/VERSIONS/PROPERTY-UPDATES-REPORT/2.0.0 https://www.mojohaus.org/versions/versions-model-report/xsd/property-updates-report-2.0.0.xsd"
+    xmlns="https://www.mojohaus.org/VERSIONS/PROPERTY-UPDATES-REPORT/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <summary>
+    <usingLastVersion>1</usingLastVersion>
+    <nextVersionAvailable>0</nextVersionAvailable>
+    <nextIncrementalAvailable>0</nextIncrementalAvailable>
+    <nextMinorAvailable>0</nextMinorAvailable>
+    <nextMajorAvailable>0</nextMajorAvailable>
+  </summary>
+  <properties>
+    <property>
+      <propertyName>property.with.major</propertyName>
+      <propertyAssociations>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-major-1</artifactId>
+        </propertyAssociation>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-major-2</artifactId>
+        </propertyAssociation>
+      </propertyAssociations>
+      <lastVersion>2.3.0</lastVersion>
+      <majors>
+        <major>2.0</major>
+        <major>2.1.0</major>
+        <major>2.1.1</major>
+        <major>2.2.0</major>
+        <major>2.2.1</major>
+        <major>2.3.0</major>
+      </majors>
+      <status>major available</status>
+    </property>
+    <property>
+      <propertyName>property.with.minor</propertyName>
+      <propertyAssociations>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-minor-1</artifactId>
+        </propertyAssociation>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-minor-2</artifactId>
+        </propertyAssociation>
+      </propertyAssociations>
+      <lastVersion>1.4</lastVersion>
+      <minors>
+        <minor>1.4</minor>
+      </minors>
+      <status>minor available</status>
+    </property>
+    <property>
+      <propertyName>property.with.incremental</propertyName>
+      <propertyAssociations>
+        <propertyAssociation>
+          <groupId>net</groupId>
+          <artifactId>property-artifact-incremental-1</artifactId>
+        </propertyAssociation>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-incremental-2</artifactId>
+        </propertyAssociation>
+      </propertyAssociations>
+      <lastVersion>2.3.1</lastVersion>
+      <incrementals>
+        <incremental>2.3.1</incremental>
+      </incrementals>
+      <status>incremental available</status>
+    </property>
+    <property>
+      <propertyName>property.with.none</propertyName>
+      <propertyAssociations>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-none-1</artifactId>
+        </propertyAssociation>
+        <propertyAssociation>
+          <groupId>test.group</groupId>
+          <artifactId>property-artifact-none2</artifactId>
+        </propertyAssociation>
+      </propertyAssociations>
+      <status>no new available</status>
+    </property>
+  </properties>
+</PropertyUpdatesReport>

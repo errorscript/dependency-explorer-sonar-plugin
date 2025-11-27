@@ -1,0 +1,420 @@
+{
+    "total": 19,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 19
+    },
+    "effortTotal": 0,
+    "issues": [
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingIncoherentVersionnedDependency",
+            "project": "test:mainProject",
+            "message": "Difference between version of com.fasterxml.jackson.core:jackson-annotations is minimal but can have vulnerabilities or other border effect. [2.8.0, 2.8.8]",
+            "key": "a1ff525a-37f0-4292-b3de-a551871559c6",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingIncoherentVersionnedDependency",
+            "project": "test:mainProject",
+            "message": "Difference between version of com.fasterxml.jackson.core:jackson-databind is minor and can lead to strange behaviour. [2.8.8, 2.14.1]",
+            "key": "ae032ae8-c7c3-43ea-9acc-a66233615c15",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingIncoherentVersionnedDependency",
+            "project": "test:mainProject",
+            "message": "Difference between version of io.dropwizard.metrics:metrics-core is minor and can lead to strange behaviour. [3.1.2, 3.2.2]",
+            "key": "43a31a79-0d65-407e-b668-73b40ba7bc62",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingIncoherentVersionnedDependency",
+            "project": "test:mainProject",
+            "message": "Difference between version of org.slf4j:slf4j-api is minimal but can have vulnerabilities or other border effect. [1.7.21, 1.7.22, 1.7.25, 1.7.36]",
+            "key": "752fe0db-6c8a-4ebf-b8e1-44fbdd910930",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Major update available for dependency org.junit.jupiter:junit-jupiter-engine:5.9.2. Next version is 5.9.3. Latest version is 6.0.1.",
+            "key": "dc7af302-80a5-4f25-bd80-ab69bd378aa0",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Minor update available for dependency org.mockito:mockito-core:5.1.1. This dependency use a property : \"${mockito.version}\". Next version is 5.2.0. Latest version is 5.20.0.",
+            "key": "a5df3353-f634-4f97-8377-a3391f6a1721",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Minor update available for dependency org.mockito:mockito-junit-jupiter:5.1.1. This dependency use a property : \"${mockito.version}\". Next version is 5.2.0. Latest version is 5.20.0.",
+            "key": "1da3f4ec-5977-4900-8a33-39ebcf127e21",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency com.formdev:flatlaf:jar:3.6.1 is declared but not used in compile scope.",
+            "key": "c06628b1-5e92-45f6-9c28-d593bf982b7a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency io.moquette:moquette-broker:jar:0.16 is declared but not used in compile scope.",
+            "key": "417da20a-2755-49f4-bb41-70a11ac1558a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.codehaus.groovy:groovy:jar:3.0.15 is declared but not used in compile scope.",
+            "key": "666c5100-c005-49c2-8623-fc4d9d035ab5",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.eclipse.paho:org.eclipse.paho.client.mqttv3:jar:1.2.4 is declared but not used in compile scope.",
+            "key": "0f7e7e33-9248-4e6e-816c-b8a7a73624fd",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.junit.jupiter:junit-jupiter-engine:jar:5.9.2 is declared but not used in test scope.",
+            "key": "0a4c5f64-ba8c-499f-80cb-3edb2dd5fc26",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.mockito:mockito-core:jar:5.1.1 is declared but not used in test scope.",
+            "key": "2476db71-d0f9-45e1-9733-35da676fee4f",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.mockito:mockito-junit-jupiter:jar:5.1.1 is declared but not used in test scope.",
+            "key": "34b69332-36a2-4ec4-b101-5627946a2f49",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UnusedDependency",
+            "project": "test:mainProject",
+            "message": "Dependency org.rxtx:rxtx:jar:2.1.7 is declared but not used in compile scope.",
+            "key": "46ee0a70-91b4-476a-aa8f-f6985d088414",
+            "status": "OPEN"
+        },
+        {
+            "severity": "INFO",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Patch update available for dependency com.formdev:flatlaf:3.6.1. Next version is 3.6.2. Latest version is 3.6.2.",
+            "key": "8287b1d8-1a18-4c1c-8332-108eb98be5ef",
+            "status": "OPEN"
+        },
+        {
+            "severity": "INFO",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Patch update available for dependency org.codehaus.groovy:groovy:3.0.15 (see dependency management). Next version is 3.0.16. Latest version is 3.0.25.",
+            "key": "44cfb35a-d14e-4de7-abb4-e93e21e5ebf8",
+            "status": "OPEN"
+        },
+        {
+            "severity": "INFO",
+            "component": "test:mainProject:sub-module/pom.xml",
+            "rule": "DependencyExplorer:UsingOutdatedDependency",
+            "project": "test:mainProject",
+            "message": "Patch update available for dependency org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4. Next version is 1.2.5. Latest version is 1.2.5.",
+            "key": "fea6ed53-8a89-4395-963b-691203f1706d",
+            "status": "OPEN"
+        }
+    ],
+    "components": [
+        {
+            "key": "bje.buildtools:hg-scm-sonar-plugin",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "Mercurial sonar plugin",
+            "longName": "Mercurial sonar plugin"
+        },
+        {
+            "key": "bje.buildtools:hg-scm-sonar-plugin:pom.xml",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "pom.xml",
+            "longName": "pom.xml",
+            "path": "pom.xml"
+        }
+    ],
+    "rules": [
+        {
+            "key": "DependencyExplorer:UsingIncoherentVersionnedDependency",
+            "name": "Using missmatch transient dependencies versions",
+            "lang": "dependencyexplorer",
+            "status": "READY",
+            "langName": "dependencyexplorer"
+        },
+        {
+            "key": "DependencyExplorer:UnusedDependency",
+            "name": "Dependency is not used and might be removed",
+            "lang": "dependencyexplorer",
+            "status": "READY",
+            "langName": "dependencyexplorer"
+        }
+    ],
+    "users": [
+        {
+            "login": "joshua",
+            "name": "joshua",
+            "avatar": "fc789d37d589f8e062391628c3d1b73c",
+            "active": true
+        }
+    ],
+    "languages": [
+        {
+            "key": "terraform",
+            "name": "Terraform"
+        },
+        {
+            "key": "cloudformation",
+            "name": "CloudFormation"
+        },
+        {
+            "key": "kubernetes",
+            "name": "Kubernetes"
+        },
+        {
+            "key": "docker",
+            "name": "Docker"
+        },
+        {
+            "key": "azureresourcemanager",
+            "name": "Azure Resource Manager"
+        },
+        {
+            "key": "yaml",
+            "name": "YAML"
+        },
+        {
+            "key": "json",
+            "name": "JSON"
+        },
+        {
+            "key": "scala",
+            "name": "Scala"
+        },
+        {
+            "key": "rust",
+            "name": "Rust"
+        },
+        {
+            "key": "cs",
+            "name": "C#"
+        },
+        {
+            "key": "java",
+            "name": "Java"
+        },
+        {
+            "key": "web",
+            "name": "HTML"
+        },
+        {
+            "key": "jsp",
+            "name": "JSP"
+        },
+        {
+            "key": "xml",
+            "name": "XML"
+        },
+        {
+            "key": "flex",
+            "name": "Flex"
+        },
+        {
+            "key": "text",
+            "name": "Text"
+        },
+        {
+            "key": "secrets",
+            "name": "Secrets"
+        },
+        {
+            "key": "vbnet",
+            "name": "VB.NET"
+        },
+        {
+            "key": "neutral",
+            "name": "Neutral"
+        },
+        {
+            "key": "py",
+            "name": "Python"
+        },
+        {
+            "key": "ipynb",
+            "name": "IPython Notebooks"
+        },
+        {
+            "key": "kotlin",
+            "name": "Kotlin"
+        },
+        {
+            "key": "go",
+            "name": "Go"
+        },
+        {
+            "key": "js",
+            "name": "JavaScript"
+        },
+        {
+            "key": "ts",
+            "name": "TypeScript"
+        },
+        {
+            "key": "css",
+            "name": "CSS"
+        },
+        {
+            "key": "ruby",
+            "name": "Ruby"
+        },
+        {
+            "key": "dependencyexplorer",
+            "name": "dependencyexplorer"
+        },
+        {
+            "key": "php",
+            "name": "PHP"
+        }
+    ],
+    "facets": [
+        {
+            "property": "severities",
+            "values": [
+                {
+                    "val": "MINOR",
+                    "count": 2
+                },
+                {
+                    "val": "MAJOR",
+                    "count": 1
+                },
+                {
+                    "val": "INFO",
+                    "count": 0
+                },
+                {
+                    "val": "CRITICAL",
+                    "count": 0
+                },
+                {
+                    "val": "BLOCKER",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "property": "types",
+            "values": [
+                {
+                    "val": "CODE_SMELL",
+                    "count": 3
+                },
+                {
+                    "val": "BUG",
+                    "count": 0
+                },
+                {
+                    "val": "VULNERABILITY",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "property": "impactSoftwareQualities",
+            "values": [
+                {
+                    "val": "MAINTAINABILITY",
+                    "count": 3
+                },
+                {
+                    "val": "RELIABILITY",
+                    "count": 0
+                },
+                {
+                    "val": "SECURITY",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "property": "impactSeverities",
+            "values": [
+                {
+                    "val": "BLOCKER",
+                    "count": 0
+                },
+                {
+                    "val": "HIGH",
+                    "count": 0
+                },
+                {
+                    "val": "INFO",
+                    "count": 3
+                },
+                {
+                    "val": "LOW",
+                    "count": 0
+                },
+                {
+                    "val": "MEDIUM",
+                    "count": 0
+                }
+            ]
+        }
+    ]
+}

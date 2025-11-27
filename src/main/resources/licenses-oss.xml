@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<licenses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<licenseFamilies>
+		<licenseFamily>
+			<name>MIT-like</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+					<code>Light-copyleft</code>
+					<code>MIT-like</code>
+					<code>BSD-like</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>false</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>BSD-like</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+					<code>Light-copyleft</code>
+					<code>BSD-like</code>
+					<code>MIT-like</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>false</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>Copyleft-like</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+					<code>Copyleft-like</code>
+					<code>Light-copyleft</code>
+					<code>BSD-like</code>
+					<code>MIT-like</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>true</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>Light-copyleft</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+					<code>Light-copyleft</code>
+					<code>BSD-like</code>
+					<code>MIT-like</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>false</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>Public-domain</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>false</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>OSI</name>
+			<integration>
+				<include>
+					<code>Public-domain</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>false</copyleft>
+			</parameter>
+		</licenseFamily>
+		<licenseFamily>
+			<name>Propietary</name>
+			<integration>
+				<include>
+					<code>MIT-like</code>
+					<code>Public-domain</code>
+				</include>
+			</integration>
+			<parameter>
+				<copyleft>true</copyleft>
+			</parameter>
+		</licenseFamily>
+	</licenseFamilies>
+	<licenseIdentities>
+		<licenseIdentity>
+			<name>0BSD</name>
+			<family>Public-domain</family>
+			<matching>
+				<match>BSD Zero Clause License</match>
+			</matching>
+		</licenseIdentity>
+		
+		<licenseIdentity>
+			<name>AGPL-1.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>Affero General Public License v1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>AGPL-3.0-only</name>
+			<family>Copyleft-like</family>
+			<matching>
+			    <match>AGPL-3.0</match>
+				<match>GNU Affero General Public License v3.0</match>
+				<match>GNU Affero General Public License v3.0 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>AGPL-3.0+</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU Affero General Public License v3.0 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>APSL-1.0</name>
+			<family>OSI</family>
+			<matching>
+				<match>Apple Public Source License 1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>APSL-1.1</name>
+			<family>OSI</family>
+			<matching>
+				<match>Apple Public Source License 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>APSL-1.2</name>
+			<family>OSI</family>
+			<matching>
+				<match>Apple Public Source License 1.2</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>APSL-2.0</name>
+			<family>OSI</family>
+			<matching>
+				<match>Apple Public Source License 2.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>Apache-1.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Apache License 1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>Apache-1.1</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Apache License 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>Apache-2.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Apache License 2.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-1-Clause</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 1-Clause License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-2-Clause</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 2-Clause "Simplified" License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-2-Clause-FreeBSD</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 2-Clause FreeBSD License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-2-Clause-NetBSD</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 2-Clause NetBSD License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-2-Clause-Patent</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD-2-Clause Plus Patent License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-3-Clause</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 3-Clause "New" or "Revised" License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-3-Clause-Clear</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 3-Clause Clear License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-3-Clause-LBNL</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Lawrence Berkeley National Labs BSD variant license</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSD-4-Clause</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>BSD 4-Clause "Original" or "Old" License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>BSL-1.0</name>
+			<family>MIT-like</family>
+			<matching>
+				<match>Boost Software License 1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CC-BY-4.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Creative Commons Attribution 4.0 International</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CC-BY-SA-4.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>Creative Commons Attribution Share Alike 4.0 International</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CC0-1.0</name>
+			<family>Public-domain</family>
+			<matching>
+				<match>Creative Commons Zero v1.0 Universal</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CDDL-1.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Common Development and Distribution License 1.0</match>
+				<match>CDDL + GPLv2 with classpath exception</match>
+				<match>CDDLGPLv2+CE</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CECILL-2.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>CeCILL Free Software License Agreement v2.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CECILL-2.1</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>CeCILL Free Software License Agreement v2.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CECILL-B</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>CeCILL-B Free Software License Agreement</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>CECILL-C</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>CeCILL-C Free Software License Agreement</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>EPL-1.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Eclipse Public License 1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>EPL-2.0</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Eclipse Public License 2.0</match>
+				<match>EPL 2.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-1.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GPL</match>
+				<match>GNU General Public License v1.0</match>
+				<match>GNU General Public License v1.0 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-1.0+</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v1.0 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0</match>
+				<match>GNU General Public License v2.0 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0+</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0-with-GCC-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0 w/GCC Runtime Library
+					exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0-with-autoconf-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0 w/Autoconf exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0-with-bison-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0 w/Bison exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0-with-classpath-exception</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU General Public License v2.0 w/Classpath exception</match>
+				<match>GPL2 w/ CPE</match>
+				<match>CDDL + GPLv2 with classpath exception</match>
+				<match>CDDLGPLv2+CE</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-2.0-with-font-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v2.0 w/Font exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-3.0</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v3.0</match>
+				<match>GNU General Public License v3.0 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-3.0+</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v3.0 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-3.0-with-GCC-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v3.0 w/GCC Runtime Library
+					exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>GPL-3.0-with-autoconf-exception</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>GNU General Public License v3.0 w/Autoconf exception</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>ICU</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>ICU License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>IPL-1.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>IBM Public License v1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>Jam</name>
+			<family>BSD-like</family>
+			<matching>
+				<match>Jam License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-2.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Library General Public License v2</match>
+				<match>GNU Library General Public License v2 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-2.0+</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Library General Public License v2 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-2.1</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Lesser General Public License v2.1</match>
+				<match>GNU Lesser General Public License v2.1 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-2.1+</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Lesser General Public License v2.1 or later</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-3.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Lesser General Public License v3.0</match>
+				<match>GNU Lesser General Public License v3.0 only</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LGPL-3.0+</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>GNU Lesser General Public License v3.0 or later</match>
+			</matching>
+		</licenseIdentity>
+	
+		<licenseIdentity>
+			<name>LiLiQ-P-1.1</name>
+			<family>MIT-like</family>
+			<matching>
+				<match>Licence Libre du Québec – Permissive version 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LiLiQ-R-1.1</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>Licence Libre du Québec – Réciprocité version 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>LiLiQ-Rplus-1.1</name>
+			<family>Copyleft-like</family>
+			<matching>
+				<match>Licence Libre du Québec – Réciprocité forte version 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MIT</name>
+			<family>MIT-like</family>
+			<matching>
+				<match>MIT License</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MIT-0</name>
+			<family>Public-domain</family>
+			<matching>
+				<match>MIT No Attribution</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MIT-Modern-Variant</name>
+			<family>MIT-like</family>
+			<matching>
+				<match>MIT License Modern Variant</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MPL-1.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>Mozilla Public License 1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MPL-1.1</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>Mozilla Public License 1.1</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>MPL-2.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>Mozilla Public License 2.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>SPL-1.0</name>
+			<family>Light-copyleft</family>
+			<matching>
+				<match>Sun Public License v1.0</match>
+			</matching>
+		</licenseIdentity>
+		<licenseIdentity>
+			<name>Unlicense</name>
+			<family>Public-domain</family>
+			<matching>
+				<match>The Unlicense</match>
+			</matching>
+		</licenseIdentity>
+	</licenseIdentities>
+</licenses>

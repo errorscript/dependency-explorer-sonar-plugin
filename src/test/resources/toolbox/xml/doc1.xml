@@ -1,0 +1,44 @@
+<response>
+	<lst name="responseHeader">
+		<int name="status">0</int>
+		<int name="QTime">0</int>
+		<lst name="params">
+			<str name="q">*</str>
+			<str name="indent">true</str>
+			<str name="fq">
+				publication_date:[2020-05-22T00:00:00Z TO 2020-05-25T23:59:59Z]
+			</str>
+			<str name="wt">xml</str>
+		</lst>
+	</lst>
+	<result name="response" numFound="40" start="0">
+		<doc>
+			<str name="checksum">19f7405c0d8a156be5c70ee12010125b</str>
+			<str name="download_link">
+				http://firds.esma.europa.eu/firds/FULINS_C_20200523_01of01.zip
+			</str>
+			<date name="publication_date">2020-05-23T00:00:00Z</date>
+			<str name="id">35928</str>
+			<str name="published_instrument_file_id">35928</str>
+			<str name="_root_">35928</str>
+			<str name="file_name">FULINS_C_20200523_01of01.zip</str>
+			<str name="file_type">FULINS</str>
+			<long name="_version_">1671620012447629323</long>
+			<date name="timestamp">2020-07-08T04:04:32.662Z</date>
+		</doc>
+		<doc>
+			<str name="checksum">1519a0eb55bb0b9fa56dabcaa4c35039</str>
+			<str name="download_link">
+				http://firds.esma.europa.eu/firds/FULINS_D_20200523_01of03.zip
+			</str>
+			<date name="publication_date">2020-05-23T00:00:00Z</date>
+			<str name="id">35929</str>
+			<str name="published_instrument_file_id">35929</str>
+			<str name="_root_">35929</str>
+			<str name="file_name">FULINS_D_20200523_01of03.zip</str>
+			<str name="file_type">FULINS</str>
+			<long name="_version_">1671620012447629324</long>
+			<date name="timestamp">2020-07-08T04:04:32.662Z</date>
+		</doc>
+	</result>
+</response>

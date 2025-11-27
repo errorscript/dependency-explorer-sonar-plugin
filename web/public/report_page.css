@@ -1,0 +1,347 @@
+ /*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2023-2025 errorscript@gmail.com
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+ *,
+ *:before,
+ *:after,
+ ::before,
+ ::after {
+     margin: 0;
+     padding: 0;
+ }
+
+ *:focus-visible {
+     outline: 2px dotted #297BAE !important;
+ }
+
+ .banner {
+     display: flex;
+     align-items: left;
+     justify-content: left;
+     font-size: 3rem;
+     position: relative;
+     z-index: 10;
+     height: auto;
+     padding-bottom: 20px;
+     padding-top: 10px;
+     font-weight: bold;
+     font-size: x-large;
+ }
+
+ .page {
+     display: flex;
+     overflow: hidden;
+     will-change: overflow;
+     height: 100vh;
+     position: relative;
+     width: 100%;
+     backface-visibility: hidden;
+ }
+
+ .page-side,
+ .page-main {
+     overflow: auto;
+     height: auto;
+     -webkit-overflow-scrolling: touch;
+     -ms-overflow-style: none;
+ }
+
+ .page-side::-webkit-scrollbar,
+ .page-main::-webkit-scrollbar {
+     display: none;
+ }
+
+ .page-side {
+     margin-left: 30px;
+     margin-bottom: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     top: 30px;
+     bottom: 0;
+     left: 0;
+     min-width: 200px;
+     width: calc(50vw - 370px);
+     border: 1px solid #e6e6e6;
+     border-right: 1px solid #e6e6e6;
+     background-color: #f3f3f3;
+ }
+
+ .page-main {
+     flex: 1;
+     margin-left: 30px;
+     margin-right: 30px;
+     margin-bottom: 30px;
+ }
+
+
+ .spinner,
+ .spinner:after {
+     box-sizing: border-box;
+ }
+
+ .spinner {
+     color: rgb(2, 136, 209);
+     display: inline-block;
+     width: 80px;
+     height: 80px;
+ }
+
+ .spinner:after {
+     content: " ";
+     display: block;
+     width: 64px;
+     height: 64px;
+     margin: 8px;
+     border-radius: 50%;
+     border: 6.4px solid currentColor;
+     border-color: currentColor transparent currentColor transparent;
+     animation: spinner 1.2s linear infinite;
+ }
+
+ @keyframes spinner {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     100% {
+         transform: rotate(360deg);
+     }
+ }
+
+ .menu-modes {
+     border-top: 1px solid #e6e6e6;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ .menu-modes h3 {
+     text-align: left;
+ }
+
+ .menu-search {
+     border-top: 1px solid #e6e6e6;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ #search {
+     width: calc(50vw - 410px);
+     min-width: 160px;
+ }
+
+ .menu-search h3 {
+     text-align: left;
+ }
+
+ .menu-issues {
+     border-top: 1px solid #e6e6e6;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ .menu-issues h3 {
+     text-align: left;
+ }
+
+ .issue-description {
+     font-size: small;
+     padding-top: 5px;
+     padding-left: 26px;
+     text-align: left;
+ }
+
+ .issue-title {
+     display: flex;
+     justify-content: space-between;
+     /* display: table-cell; */
+     font-size: large;
+     /* text-align: left; */
+ }
+
+ .issue-title svg {
+     vertical-align: middle;
+ }
+
+ .issue-card {
+     border-top: 1px solid #e6e6e6;
+     cursor: pointer;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     text-align: left;
+     z-index: 2;
+ }
+
+ .project-module {
+     --sbw: 0px;
+     background-color: #fff;
+     border: 1px solid #e6e6e6;
+     border-radius: 2px;
+     color: #333;
+     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+     font-size: 12px;
+     margin: 0;
+     margin-bottom: 20px;
+     margin-top: 8px !important;
+     padding: 10px;
+     scrollbar-color: #484c4f #282b2c;
+ }
+
+ .project-module-title {
+     text-align: left;
+ }
+
+ .status_button {
+     text-align: left;
+     border-radius: 3px;
+     border:1px solid #999;
+     padding:0 5px;
+ }
+
+ .status_dropdown {}
+
+ .status_state {
+     vertical-align: middle;
+     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+     font-palette: normal;
+     font-size: 14px;
+     font-weight: 600
+ }
+
+ .status_icon {
+     vertical-align: middle;
+     font-family: "Material Symbols Rounded";
+     font-palette: normal;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400
+ }
+
+ .modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 3;
+     /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     /* background-color: rgba(0, 0, 0, 0.4); */
+     /* Black w/ opacity */
+ }
+
+ .modal-content {
+     position: absolute;
+     z-index: 500;
+     /* 15% from the top and centered */
+     width: 30vh;
+     min-width: 500px;
+     /* Could be more or less, depending on screen size */
+     background-color: #fefefe;
+     box-sizing: border-box;
+     border-radius: 10px;
+     border: 1px solid #888;
+ }
+
+
+
+ .dropdown-menu {
+     padding: none;
+     margin: none;
+ }
+
+ .dropdown-menu-cartouche {
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .dropdown-menu-title {
+     color: rgb(62, 67, 87);
+     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+     font-size: 14px;
+     font-weight: 600;
+ }
+
+ .dropdown-menu-close {
+     background-color: transparent;
+     background-repeat: no-repeat;
+     border: none;
+     cursor: pointer;
+     overflow: hidden;
+     outline: none;
+ }
+
+ .dropdown-menu-separator {
+     padding-top: 5px;
+     border-top: 1px solid #e6e6e6;
+     padding-bottom: 5px;
+ }
+
+ .dropdown-menu-item {}
+
+ .dropdown-button {
+     /* border-top: 1px ridge #e6e6e6; */
+     padding: 4px;
+     margin-bottom: 4px;
+     cursor: pointer;
+     width: 100%;
+     background-color: transparent;
+     border: none;
+ }
+
+ .dropdown-button:hover {
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.1);
+ }
+
+ .dropdown-button-title {
+     width: 100%;
+     text-align: left;
+     font-size: 14px;
+     font-weight: 400;
+     color: rgb(62, 67, 87);
+ }
+
+ .dropdown-button-description {
+     width: inherit;
+     font-size: 14px;
+     color: rgb(99, 113, 146);
+     font-weight: 400;
+     width: 100%;
+     text-align: left;
+     padding-left: 10%;
+     word-wrap: break-all;
+     overflow-wrap: break-word;
+ }
